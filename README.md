@@ -1,4 +1,4 @@
-# Multi Threading Adcanced Http Downloader 
+# Multi Threading Advanced Http Downloader 
 
 TThredingFileDownloader
 
