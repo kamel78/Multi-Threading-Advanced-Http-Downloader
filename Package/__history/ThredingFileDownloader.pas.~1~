@@ -1,0 +1,29 @@
+unit ThredingFileDownloader;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TThredingFileDownloader = class(TComponent)
+  private
+    { Déclarations privées }
+  protected
+    { Déclarations protégées }
+  public
+    { Déclarations publiques }
+  published
+    { Déclarations publiées }
+  end;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+  RegisterComponents('Samples', [TThredingFileDownloader]);
+end;
+
+end.

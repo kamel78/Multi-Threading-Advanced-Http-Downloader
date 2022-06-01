@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2022/05/26 12:11:43.000.871,=C:\Users\Kamel\Desktop\HttpDownload\MultiCircularProgress.pas</Transaction>
+    <Transaction>2022/05/26 15:47:02.000.574,=C:\Users\Kamel\Desktop\HttpDownload\Unit1.pas</Transaction>
+    <Transaction>2022/05/26 15:47:30.000.395,C:\Users\Kamel\Desktop\HttpDownload\Unit1.pas=C:\Users\Kamel\Desktop\HttpDownload\ThredingFileDownloader.pas</Transaction>
+    <Transaction>2022/05/26 17:41:11.000.190,=C:\Users\Kamel\Desktop\HttpDownload\Unit1.pas</Transaction>
+    <Transaction>2022/05/26 17:41:50.000.115,C:\Users\Kamel\Desktop\HttpDownload\Unit1.fmx=C:\Users\Kamel\Desktop\HttpDownload\MainForm.fmx</Transaction>
+    <Transaction>2022/05/26 17:41:50.000.115,C:\Users\Kamel\Desktop\HttpDownload\Unit1.pas=C:\Users\Kamel\Desktop\HttpDownload\MainForm.pas</Transaction>
+    <Transaction>2022/05/29 14:09:32.000.815,C:\Users\Kamel\Desktop\HttpDownload\FDownloadDemo.pas=</Transaction>
+    <Transaction>2022/06/01 21:22:18.000.405,=C:\Users\neptune\Desktop\HttpDownload\ThredingFileDownloader.pas</Transaction>
+  </Transactions>
+</BorlandProject>
