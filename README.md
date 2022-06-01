@@ -13,6 +13,10 @@ Tested on Rad 10.2/10.3 and should work for 10.4 and Alexandria.
 Designed for FMX Multi-resolution applications (Windows, Android and Mac …)  
 
 
+![plot](https://github.com/kamel78/Multi-Threading-Advanced-Http-Downloader-/blob/main/DemoCapture.png)
+
+
+
 Remarks and bugs report are welcome.  
 
 
