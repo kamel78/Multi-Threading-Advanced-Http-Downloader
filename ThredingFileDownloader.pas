@@ -1,8 +1,8 @@
 unit ThredingFileDownloader;
 
 {********************************************************************************************
-   Développer par Faraoun Kamel Mohamed
-   Université Djilali Liabes -Sidi Bel Abbes - Algérie
+   DÃ©velopper par Faraoun Kamel Mohamed
+   UniversitÃ© Djilali Liabes -Sidi Bel Abbes - AlgÃ©rie
    kamel_mh@yahoo.fr
 
    Multi-Thread Http Downloader component for FMX:Windows/Android/Mac...
@@ -250,6 +250,7 @@ try
     finally
       wClient.Free;
       FCriticalSection.Free;
+      if not CancelDownload then begin
       if not FStopDownload then FSaveStateStream.Size:=FSaveStateStream.Size-FNumOfThreads*24-1-Length(TEncoding.UTF8.GetBytes(FURL))-2;
       FSaveStateStream.Free;
       if not FStopDownload then begin
@@ -269,6 +270,7 @@ try
                                                                                                end);
                                     end
                                 else RenameFile(FOutputPath+'_'+FFileName+'.temporary',FOutputPath+FFilename);
+                                end;
                                 end;
       FStopDownload:=False;
 end;
