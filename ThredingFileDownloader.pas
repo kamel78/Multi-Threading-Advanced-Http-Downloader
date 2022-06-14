@@ -93,7 +93,7 @@ Type
         procedure CancelDownload;
         function StandarizedSize(value:Int64):string;
         function ResumeFromTempFile(wFilename:String):integer;
-        property NumOfThreads:integer read FNumOfThreads write FDefaultNumOfThreads default 4;
+        property NumOfThreads:integer read FDefaultNumOfThreads write FDefaultNumOfThreads default 4;
         property Filename:string read FFilename;
         property URL:string read FUrl write FUrl;
         property OnThredDownloadingData:TDownloadThreadDataEvent read FOnDownloadThreadData write FOnDownloadThreadData;
